@@ -35,3 +35,6 @@ ff Cargo hel
 curl -sSL https://raw.githubusercontent.com/dslxvr/ff/refs/heads/master/ff.sh \
     >> ~/.bash_aliases
 ```
+
+### Demo
+![ff demo](ff-demo.gif)
