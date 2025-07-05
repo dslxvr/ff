@@ -32,6 +32,6 @@ ff Cargo hel
 ### Installation
 ```bash
 # add the function to bash_aliases
-curl -sSL https://raw.githubusercontent.com/dslxvr/ff/ff.sh \
+curl -sSL https://raw.githubusercontent.com/dslxvr/ff/refs/heads/master/ff.sh \
     >> ~/.bash_aliases
 ```
