@@ -36,8 +36,7 @@ ff() {
                 printf '%06d\t%s\n' "$depth" "$p"
             done |
             sort -n |
-            fzf --no-sort --delimiter='\t' --with-nth=2.. --select-1 --exit-0 \
-                -q "$file_pattern" |
+            fzf --no-sort --delimiter='\t' --with-nth=2.. --select-1 --exit-0 |
             cut -f2-
     ) || return
     [[ $file ]] || return
